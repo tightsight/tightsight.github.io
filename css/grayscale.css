@@ -348,6 +348,11 @@ footer p {
     margin: 0;
 }
 
+footer.footer-top {
+    margin-top: 50px;
+    background-color: #282828;
+}
+
 ::-moz-selection {
     text-shadow: none;
     background: #fcfcfc;
