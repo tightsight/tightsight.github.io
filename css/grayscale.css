@@ -258,25 +258,30 @@ a:focus {
 }
 
 #cv img {
-    margin-bottom: 15px;
+    margin-bottom: 45px;
 }
 
 #cv button {
     margin-right: 10px;
 }
 
-#cv .email-address {
-    font-size: 16px;
-}
-
-/*#projects h2 {
-    margin-bottom: 55px;
-}*/
-
 #projects .project {
     text-align: left;
     margin-bottom: 50px;
     margin-top: 50px;
+}
+
+#teaching h2 {
+    margin-bottom: 55px;
+}
+
+#teaching p {
+    text-align: left;
+    font-size: 16px;
+}
+
+#teaching img {
+    margin-bottom: 25px;
 }
 
 .content-section {
