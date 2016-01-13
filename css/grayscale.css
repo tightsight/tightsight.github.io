@@ -147,7 +147,8 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/waterfall-bg-cropped.jpg) no-repeat bottom center scroll;
+    /*background: url(../img/waterfall-bg-cropped.jpg) no-repeat bottom center scroll;*/
+    background: url(../img/diver.jpeg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -372,13 +373,21 @@ footer {
 }
 
 footer p {
-    margin: 0;
+    margin: 0px;
     font-size: 16px;
 }
 
+footer .email {
+    margin-top: 25px;
+}
+
 footer.footer-top {
-    margin-top: 50px;
+    margin-top: 100px;
     background-color: #282828;
+}
+
+footer.footer-bottom {
+    padding: 25px 0;
 }
 
 ::-moz-selection {
