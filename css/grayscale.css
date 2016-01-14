@@ -8,8 +8,8 @@ body {
     width: 100%;
     height: 100%;
     font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    color: #fff;
-    background-color: #000;
+    color: #000;
+    background-color: #fff;
 }
 
 html {
@@ -45,7 +45,7 @@ p {
 }
 
 a {
-    color: #42dca3;
+    color: #5f5f5f;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -54,7 +54,7 @@ a {
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #1d9b6c;
+    color: #111;
 }
 
 .light {
@@ -333,17 +333,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #42dca3;
-    color: #42dca3;
+    border: 2px solid #5f5f5f;
+    color: #5f5f5f;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #42dca3;
+    border: 2px solid #5f5f5f;
     outline: 0;
-    color: #000;
-    background-color: #42dca3;
+    color: #fff;
+    background-color: #5f5f5f;
 }
 
 ul.banner-social-buttons {
@@ -381,13 +381,20 @@ footer .email {
     margin-top: 25px;
 }
 
+footer a {
+    color: white;
+}
+
 footer.footer-top {
     margin-top: 100px;
-    background-color: #282828;
+    background-color: #333;
+    color: white;
 }
 
 footer.footer-bottom {
     padding: 25px 0;
+    background-color: black;
+    color: white;
 }
 
 ::-moz-selection {
