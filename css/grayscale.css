@@ -148,7 +148,7 @@ a:focus {
     text-align: center;
     color: #fff;
     /*background: url(../img/waterfall-bg-cropped.jpg) no-repeat bottom center scroll;*/
-    background: url(../img/diver.jpeg) no-repeat bottom center scroll;
+    background: url(../img/diver.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -382,7 +382,7 @@ footer .email {
 }
 
 footer a {
-    color: white;
+    color: white;o
 }
 
 footer.footer-top {
